@@ -16,7 +16,7 @@ def login_with(login, password):
     submit_element.click()
     password_element.set(password)
     submit_element.click()
-    # browser.close()
+    browser.close()
     return f'{login}, {password}'
 
 
